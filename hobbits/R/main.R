@@ -2,5 +2,8 @@
 #' @return hobbit names as character
 #' @export
 hobbits <- function() {
-  c('Frodo', 'Bilbo', 'Merry', 'Pippin')
+  list(
+    frodo = frodo::frodo(), # in imports
+    bilbo() # in Depends
+  )
 }

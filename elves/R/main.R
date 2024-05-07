@@ -4,7 +4,7 @@
 #' @importFrom galadriel galadriel
 elves <- function() {
   list(
-    galadriel = galadriel(),
-    legolas = legolas::legolas()
+    galadriel = galadriel(), # importFrom
+    legolas = legolas::legolas() # import
   )
 }
