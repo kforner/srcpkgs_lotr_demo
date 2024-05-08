@@ -4,6 +4,6 @@
 hobbits <- function() {
   list(
     frodo = frodo::frodo(), # in imports
-    bilbo() # in Depends
+    bilbo = bilbo() # in Depends
   )
 }
